@@ -1,16 +1,47 @@
-# word_hoard
+# WordHoard 
 
-A new Flutter project.
+**WordHoard** is a Flutter-based mobile app that explores the lost letters and sounds of Old English. It’s designed to help users learn about historical characters like "þ" (thorn), their pronunciation, and their usage in early English writing.
+
+---
+
+## Features
+
+- Scrollable list of Old English letters
+- Detail screen with pronunciation and example words
+- (Coming Soon) Audio playback for authentic pronunciation
+- (Planned) Data driven by local JSON for scalability
+- (Planned) Custom fonts and stylized UI
+
+---
+
+## Demo Screenshots
+
+*Coming soon!*
+
+---
+
+## Built With
+
+- Flutter
+- Dart
+- VS Code / Android Studio
+
+## Acknowledgements
+
+- Old English references from Wikipedia
+- Pronunciation guides inspired by linguistic resources
+- Background texture rawpixel.com on [Freepik](https://www.freepik.com)
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK installed (version >= 3.3)
+- Android Studio or VS Code
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Run the App
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
