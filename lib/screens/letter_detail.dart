@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class LetterDetailPage extends StatelessWidget {
   final String letter;
   final String name;
-  final String pronounciation;
+  final String pronunciation;
   final String example;
   final String description;
 
@@ -11,7 +11,7 @@ class LetterDetailPage extends StatelessWidget {
     super.key,
     required this.letter,
     required this.name,
-    required this.pronounciation,
+    required this.pronunciation,
     required this.example,
     required this.description,
   });
@@ -25,7 +25,7 @@ class LetterDetailPage extends StatelessWidget {
         child: Column(
           children: [
             Text(letter, style: TextStyle(fontSize: 64)),
-            Text('Pronounciation: $pronounciation'),
+            Text('Pronounciation: $pronunciation'),
             Text('Example: $example'),
             SizedBox(height: 16),
             Text(description),
